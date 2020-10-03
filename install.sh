@@ -6,5 +6,5 @@ npm install react-dom;
 npm run build;
 cd ..;
 cd flask-back;
-nohup python3 app.py;
+nohup python3 app.py &;
 exit 0;
