@@ -1,2 +1,2 @@
 #!/bin/bash
-kill -9 $(pgrep python)
+kill -9 $(ps -ef | grep python | awk '{print $2}')
