@@ -1,11 +1,9 @@
 #!/bin/bash
-cd /home/ubuntu/live_files;
-cd react-front;
+cd /home/ubuntu/live_files/react-front;
 npm install react;
 npm install react-dom;
 npm install run build;
-cd ..;
-cd flask-back;
+cd /home/ubuntu/live_files/flask-back;
 pwd;
-python3 app.py &
+python3 /home/ubuntu/live_files/flask-back/app.py &
 exit 0;
