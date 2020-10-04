@@ -7,3 +7,6 @@ hooks:
   ApplicationStart:
     - location: install.sh
       runas: root
+  ApplicationStop:
+    - location: stop.sh
+      runas: root
