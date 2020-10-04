@@ -1,10 +1,10 @@
 #!/bin/bash
 cd /home/ec2-user/live_files;
 cd react-front;
-/root/.nvm/versions/node/v14.13.0/bin/npm install react;
-/root/.nvm/versions/node/v14.13.0/bin/npm install react-dom;
-/root/.nvm/versions/node/v14.13.0/bin/npm run build;
+/home/ec2-user/.nvm/versions/node/v14.13.0/bin/npm install react;
+/home/ec2-user/.nvm/versions/node/v14.13.0/bin/npm install react-dom;
+/home/ec2-user/.nvm/versions/node/v14.13.0/bin/npm install run build;
 cd ..;
 cd flask-back;
-nohup python3 app.py &
+python3 app.py &
 exit 0;
