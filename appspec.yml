@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/live_files
+    destination: /home/ubuntu/live_files
 hooks:
   ApplicationStart:
     - location: install.sh
