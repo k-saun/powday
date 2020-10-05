@@ -4,6 +4,9 @@ files:
   - source: /
     destination: /home/ec2-user/live_files
 hooks:
+  BeforeInstall:
+    - location: build.sh
+      runas: ec2-user
   ApplicationStart:
     - location: install.sh
       runas: root
