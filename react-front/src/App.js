@@ -3,6 +3,8 @@ import "./index.css";
 import MapDisplay from "./MapDisplay";
 import MenuBar from "./MenuBar";
 import ResortRanking from "./ResortRanking";
+import InputFields from "./InputFields";
+import ResultScroll from "./ResultScroll";
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
         <div className="resortRankingColumn">
           <ResortRanking />
         </div>
+      </div>
+      <div className="inputFieldDiv">
+        <InputFields />
+      </div>
+      <div className="resultScrollDiv">
+        <ResultScroll />
       </div>
     </div>
   );
