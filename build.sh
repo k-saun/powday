@@ -5,3 +5,4 @@ npm config set registry http://registry.npmjs.org/;
 npm install react;
 npm install react-dom;
 npm install run build;
+pwd;
