@@ -38,3 +38,17 @@ code {
   padding: 10px;
   border: 1px solid green;
 }
+
+.inputFieldDiv {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+.resultScrollDiv {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid violet;
+}
