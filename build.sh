@@ -1,7 +1,7 @@
 #!/bin/bash
 export PATH="/home/ec2-user/.nvm/versions/node/v14.13.0/bin:$PATH";
 cd /home/ec2-user/live_files/react-front;
-/home/ec2-user/.nvm/versions/node/v14.13.0/bin/npm config set registry http://registry.npmjs.org/;
-/home/ec2-user/.nvm/versions/node/v14.13.0/bin/npm install react;
-/home/ec2-user/.nvm/versions/node/v14.13.0/bin/npm install react-dom;
-/home/ec2-user/.nvm/versions/node/v14.13.0/bin/npm install run build;
+npm config set registry http://registry.npmjs.org/;
+npm install react;
+npm install react-dom;
+npm install run build;
