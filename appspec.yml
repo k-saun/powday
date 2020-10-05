@@ -6,7 +6,7 @@ files:
 hooks:
   AfterInstall:
     - location: build.sh
-      runas: ec2-user
+      runas: root
   ApplicationStart:
     - location: install.sh
       runas: root
