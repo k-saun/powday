@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class MenuBar extends Component {
   render() {
-    return <h1>Edited Menu Bar Filler</h1>;
+    return <h1>Menu Bar Filler</h1>;
   }
 }
 

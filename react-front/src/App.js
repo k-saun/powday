@@ -1,20 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.css";
-import MapDisplay from "./MapDisplay";
 import MenuBar from "./MenuBar";
 import ResortRanking from "./ResortRanking";
 import InputFields from "./InputFields";
 import ResultScroll from "./ResultScroll";
+import ReactMapGL from "react-map-gl";
 
 function App() {
+  const [viewport, setViewport] = useState({
+    latitude: 43.6515,
+    longitude: -116.2023,
+    width: "80vw",
+    height: "45vh",
+    zoom: 10
+  });
+
+  const mapBoxToken = "pk.eyJ1IjoiZXJpYy1wZXRlcnNvbjE3NSIsImEiOiJja2ZvbDcyemUwMWlrMnJudTNtd2F0a2VnIn0.423dDz6mycUHod5Y2rjWKg";
+  const mapStyleLink = "mapbox://styles/eric-peterson175/ckfolrv1v07u91anrzyhk4jhd";
+
   return (
-    <div>
+    <div className="mainDiv">
       <div className="menuBarDiv">
         <MenuBar />
       </div>
       <div className="mapAndResortDiv">
         <div className="mapColumn">
-          <MapDisplay />
+          <ReactMapGL
+            {... viewport}
+            mapboxApiAccessToken={mapBoxToken}
+            mapStyle={mapStyleLink}
+            onViewportChange={viewport => {
+              setViewport(viewport);
+            }}>
+          </ReactMapGL>
         </div>
         <div className="resortRankingColumn">
           <ResortRanking />
