@@ -12,24 +12,27 @@ code {
     monospace;
 }
 
+.mainDiv {
+  box-sizing: border-box;
+}
+
 .mapAndResortDiv {
   float: left;
   width: 100%;
-  padding: 10px;
-  border: 1px solid black;
   display: flex;
+  box-sizing: inherit;
 }
 
 .mapColumn {
-  width: 70%;
-  padding: 10px;
-  border: 1px solid grey;
+  box-sizing: inherit;
+  width: 80%;
 }
 
 .resortRankingColumn {
-  width: 30%;
-  padding: 10px;
-  border: 1px solid red;
+  box-sizing: inherit;
+  word-break: break-all;
+  white-space: normal;
+  width: 20%;
 }
 
 .menuBarDiv {
@@ -37,6 +40,7 @@ code {
   width: 100%;
   padding: 10px;
   border: 1px solid green;
+  box-sizing: inherit;
 }
 
 .inputFieldDiv {
@@ -44,6 +48,7 @@ code {
   width: 100%;
   padding: 10px;
   border: 1px solid blue;
+  box-sizing: inherit;
 }
 
 .resultScrollDiv {
@@ -51,4 +56,5 @@ code {
   width: 100%;
   padding: 10px;
   border: 1px solid violet;
+  box-sizing: inherit;
 }
