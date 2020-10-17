@@ -2,3 +2,4 @@
 venv/
 flask-back/static/react/
 flask-back/templates/
+node_modules/
