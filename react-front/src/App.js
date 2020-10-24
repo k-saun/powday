@@ -4,7 +4,8 @@ import MenuBar from "./MenuBar";
 import ResortRanking from "./ResortRanking";
 import InputFields from "./InputFields";
 import ResultScroll from "./ResultScroll";
-import ReactMapGL from "react-map-gl";
+import ReactMapGL, {Marker} from "react-map-gl";
+import * as resortData from "./exampleData/fake-resorts.json";
 
 function App() {
   const [viewport, setViewport] = useState({
@@ -32,6 +33,7 @@ function App() {
             onViewportChange={viewport => {
               setViewport(viewport);
             }}>
+              {}
           </ReactMapGL>
         </div>
         <div className="resortRankingColumn">
