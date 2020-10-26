@@ -45,7 +45,6 @@ code {
   float: left;
   width: 100%;
   padding: 10px;
-  border: 1px solid green;
   box-sizing: inherit;
 }
 
@@ -53,7 +52,6 @@ code {
   float: left;
   width: 100%;
   padding: 10px;
-  border: 1px solid blue;
   box-sizing: inherit;
 }
 
@@ -61,7 +59,6 @@ code {
   float: left;
   width: 100%;
   padding: 10px;
-  border: 1px solid violet;
   box-sizing: inherit;
 }
 
