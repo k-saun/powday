@@ -4,9 +4,7 @@ files:
   - source: /
     destination: /home/ubuntu/live_files
 hooks:
-  AfterInstall:
-    - location: build.sh
-      runas: root
+
   ApplicationStart:
     - location: install.sh
       runas: root
