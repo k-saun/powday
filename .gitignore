@@ -1,4 +1,5 @@
 .idea
+.DS_store
 venv/
 flask-back/static/react/
 flask-back/templates/
