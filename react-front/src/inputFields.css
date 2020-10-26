@@ -1,0 +1,13 @@
+table {
+    text-align: center;
+}
+
+td {
+    min-width: 200px;
+}
+
+#DateTableCell {
+    min-width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
