@@ -8,18 +8,6 @@
     {
       "type": "Feature",
       "properties": {
-        "RESORT_ID": 960,
-        "FACILITYID": 28014,
-        "NAME": "Extra Credit"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [43.65140, -116.302500]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "RESORT_ID": 1219,
         "FACILITYID": 28001,
         "NAME": "Bogus Basin"
