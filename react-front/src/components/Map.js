@@ -24,7 +24,7 @@ export const Map = () => {
             setViewport(viewport);
             }}>
                 {resortData.features.map((resort) =>(
-                    <Marker key={resort.properties.RESORT_ID}
+                    <Marker key={resort.properties.NAME}
                             latitude={resort.geometry.coordinates[0]}
                             longitude={resort.geometry.coordinates[1]}>
                         <button class="resort-btn">

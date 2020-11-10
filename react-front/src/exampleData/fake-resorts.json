@@ -8,9 +8,8 @@
     {
       "type": "Feature",
       "properties": {
-        "RESORT_ID": 1219,
-        "FACILITYID": 28001,
-        "NAME": "Bogus Basin"
+        "NAME": "Bogus Basin",
+        "depth": 30
       },
       "geometry": {
         "type": "Point",
@@ -20,9 +19,8 @@
     {
       "type": "Feature",
       "properties": {
-        "RESORT_ID": 1157,
-        "FACILITYID": 28002,
-        "NAME": "Tamarack"
+        "NAME": "Tamarack",
+        "depth": 21
       },
       "geometry": {
         "type": "Point",
@@ -32,9 +30,8 @@
     {
       "type": "Feature",
       "properties": {
-        "RESORT_ID": 1158,
-        "FACILITYID": 28002,
-        "NAME": "Brundage"
+        "NAME": "Brundage",
+        "depth": 22
       },
       "geometry": {
         "type": "Point",
@@ -44,13 +41,210 @@
     {
       "type": "Feature",
       "properties": {
-        "RESORT_ID": 1159,
-        "FACILITYID": 28002,
-        "NAME": "Targee"
+        "NAME": "Targee",
+        "depth": 54
       },
       "geometry": {
         "type": "Point",
         "coordinates": [43.7871, -110.9593]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Alpine Meadows",
+        "depth": 33
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.1646, -120.2387]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Silver Mountain Resort",
+        "depth": 10
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.5407, -116.1332]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Crystal Mountain",
+        "depth": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.9282, -121.5045]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Alpine Meadows",
+        "depth": 41
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.1646, -120.2387]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Snowbird",
+        "depth": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.58111, -111.656389]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Brighton",
+        "depth": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.5980, -111.5832]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Alta",
+        "depth": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.5884, -111.6386]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Park City Mountain",
+        "depth": 6
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [40.6514, -111.5080]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Schweitzer Mountain",
+        "depth": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.3680, -116.6227]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Mammoth Mountain",
+        "depth": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.6308, -119.0326]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Mt Hood Meadows",
+        "depth": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.45350, -121.933136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Mount Bachelor Ski Resort",
+        "depth": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.0029, -121.6791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Arapahoe Basin",
+        "depth": 31
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.6425, -105.8719]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Big Sky Resort",
+        "depth": 26
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.2857, -111.4012]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Bridger Bowl",
+        "depth": 25
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [45.8174, -110.8966]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Taos Ski Valley",
+        "depth": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [36.5960, -105.4545]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Aspen Mountain",
+        "depth": 38
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.1863, -106.8182]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Whitefish Mountain",
+        "depth": 27
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [48.4106, -114.3353]
       }
     }
   ]
