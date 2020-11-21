@@ -34,7 +34,7 @@ const ZIPinput = () => {
   return (
   <form>
     <label>
-      <input type="text"/>
+      <input id="ZIP" type="text"/>
     </label>
   </form>
   );
@@ -53,8 +53,12 @@ const MilesInput = () => {
 
 
 const DatePick = () => {
-  const [startDate, setStartDate] = useState(new Date("2014/02/08"));
-  const [endDate, setEndDate] = useState(new Date("2014/02/10"));
+  var today = new Date();
+  var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+  const [startDate, setStartDate] = useState(new Date(date));
+  today.setDate(today.getDate() + 7);
+  date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+  const [endDate, setEndDate] = useState(new Date(date));
   return (
     <>
       <DatePicker
