@@ -22,4 +22,4 @@ PowDay was hosted on AWS EC2 instances with Continuous Deployment managed by Cod
 
 - Nikita Kramar
 - Eric Peterson
-- Keegaun Saunders
+- Keegan Saunders
