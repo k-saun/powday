@@ -11,6 +11,8 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ## Usage
  
 ## Architecture
+
+PowDay was hosted on AWS EC2 instances with Continuous Deployment managed by CodePipelines. Flask was used to serve the web content to clients and handle the back end in Python. React was used to handle the front end, mainly because of its modular nature. The map component was provided by Mapbox, a service that makes creating and using maps very simple.
 -
 -
 -
