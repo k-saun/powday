@@ -11,8 +11,8 @@ Snow enthusiasts around the world face tough decisions each week. Where should w
 ## Usage
 - To access the production website, visit http://34.220.197.65/
 - To build and host an instance of the website, first run
-```$ npm run build```  within the **react-front/** directory, followed by
-```$ python app.py```  within the **flask-back/** directory
+```$ npm run build ``` within the **react-front/** directory, followed by
+```$ python app.py ``` within the **flask-back/** directory
  
 ## Architecture
 
