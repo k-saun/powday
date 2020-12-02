@@ -9,21 +9,17 @@ It is a simple user friendly page with only essential information and straightfo
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ## Usage
+- To access the production website, visit http://34.220.197.65/
+- To build and host an instance of the website, first run
+```$ npm run build ```within the **react-front/** directory, followed by
+```$ python app.py ```within the **flask-back/** directory
  
 ## Architecture
--
--
--
 
-[Link](url) and ![Image](src)
-```
+PowDay was hosted on AWS EC2 instances with Continuous Deployment managed by CodePipelines. Flask was used to serve the web content to clients and handle the back end in Python. React was used to handle the front end, mainly because of its modular nature. The map component was provided by Mapbox, a service that makes creating and using maps very simple.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Authors
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/k-saun/powday/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Nikita Kramar
+- Eric Peterson
+- Keegaun Saunders
