@@ -6,7 +6,7 @@ It is a simple user friendly page with only essential information and straightfo
 
 ### Inspiration
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Snow enthusiasts around the world face tough decisions each week. Where should we go this weekend? We wanted to make this decision as easy as possible by providing a website to predict and indicate which resorts will have the best snow in a users area, in a given date range.
 
 ## Usage
 - To access the production website, visit http://34.220.197.65/
